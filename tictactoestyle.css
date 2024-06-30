@@ -1,0 +1,59 @@
+*{
+    /* margin: 10px; */
+    background-color: bisque;
+    /* overflow: hidden; */
+}
+.window{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.btns{
+    width: 10vw;
+    height: 10vw;
+    background-color: aqua;
+    cursor: pointer;
+    box-shadow: 2px 2px rgba(0, 3, 0, 0.5);
+    font-size: 4vw;
+    font-weight: bolder;
+    text-align: center;
+    color: green;
+    display: inline-block;
+    vertical-align: middle;
+}
+.name{
+    font-size: 3vmax;
+    font-weight: bolder;
+}
+.resetbtn{
+    width: 12vmax;
+    height: 6vmax;
+    font-size: 2vmax;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+}
+.result{
+    font-size: 2vmax;
+    font-weight: bolder;
+    visibility: hidden;
+    margin: 20px;
+}
+.winning{
+    visibility: visible;
+}
+.gameSpace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
